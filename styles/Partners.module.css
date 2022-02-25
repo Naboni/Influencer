@@ -1,0 +1,27 @@
+.partners {
+  margin: 5rem auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.partnersContainer {
+  justify-content: center;
+}
+
+.partnersContainer h2 {
+  text-align: center;
+  font-size: 18px;
+  color: tomato;
+  padding-bottom: 20px;
+}
+
+.socialsHolder {
+  display: flex;
+  padding-top: 20px;
+}
+
+.items {
+  padding: 0 1.5rem;
+}

@@ -1,0 +1,47 @@
+.insightContainer {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 15px;
+}
+
+.insightTitle {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.insightTitle h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding: 0.5rem 0 5rem;
+}
+
+.insightsHolder {
+  padding: 0 3rem;
+}
+
+.insightCard {
+  height: 450px;
+  border-radius: 7px;
+}
+.insightCard h4 {
+  color: tomato;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 10px 5px;
+}
+
+.insightCard p {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  padding: 0 5px;
+}
+
+.insightCard a {
+  color: blue;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 15px 5px;
+}

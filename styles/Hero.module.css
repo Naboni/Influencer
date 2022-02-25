@@ -1,0 +1,82 @@
+.hero {
+  /* margin: 5rem auto; */
+  /* max-width: 1200px; */
+  padding: 0 15px;
+  display: flex;
+  background-image: url(https://www.upfluence.com/wp-content/uploads/2019/04/Background-header@2x.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  padding: 7rem 0;
+}
+
+.heroCont {
+  justify-content: center;
+}
+
+.leftContainer {
+  padding: 10px;
+}
+
+.leftContainer h2 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: black;
+  line-height: 4rem;
+}
+.leftContainer h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #6b7c93;
+}
+
+.imgHolder {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.searchContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.searchContainer button {
+  padding: 16px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ff4331;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid #ff4331;
+  border-style: solid solid solid none;
+  border-radius: 0 10px 10px 0;
+  width: 25%;
+}
+
+.hero input[type="text"] {
+  padding: 16px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 2px solid #ff4331;
+  border-style: solid none solid solid;
+  border-radius: 10px 0 0 10px;
+  width: 70%;
+}
+
+@media only screen and (max-width: 570px) {
+  .searchContainer {
+    width: 100%;
+  }
+
+  .searchContainer .searchForm {
+    display: flex;
+    justify-content: center;
+  }
+}
