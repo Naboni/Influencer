@@ -1,0 +1,41 @@
+.insights {
+  background-color: #f4f3ff;
+}
+
+.testimonialsContainer {
+  margin: 10rem 0;
+}
+
+.testimonialsTitle {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonialsTitle h2 {
+  margin-top: 200px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding: 1.5rem 0;
+}
+
+.testimonialItem p {
+  color: #6b7c93;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.testimonialItem h4 {
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.testimonialItem h5 {
+  color: #6b7c93;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.testimonialCard {
+  height: 300px;
+}
